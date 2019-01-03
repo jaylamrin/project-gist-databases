@@ -9,7 +9,7 @@ python:
   - "3.6"
 
 install:
-  - pip install -r dev-requirements.txt
+  - pip install -r requirements.txt
 
 script:
   - "PYTHONPATH=. py.test -s tests/"
